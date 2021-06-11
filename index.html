@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Diegup Image Slider</title>
+</head>
+<body>
+    <h1>Diegup Image Slider</h1>
+    <div class="carousel-container">
+        <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>close</span>
+        <div class="carousel-slide">
+            <img src="./Images/atardecer-en-el-avila.jpg" id="lastClone" alt="">
+            <img src="./Images/lagoon-canaima.jpg" alt="">
+            <img src="./Images/1-Catatumbo-lightning.jpg" alt="">
+            <img src="./Images/atardecer-en-el-avila.jpg" alt="">
+            <img src="./Images/lagoon-canaima.jpg" alt="" id="firstClone">
+        </div>
+        </div>
+    </div>
+    
+
+    <button id="prevBtn">Prev</button>
+    <button id="nextBtn">Next</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
